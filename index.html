@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-container">
+        <section class="left-section">
+            <div class="todo">
+                <h2>
+                    <span class="todo-text">TO-DO</span>
+                    <span class="list-blue">LIST</span>
+                </h2>
+                <div class="todo-imag">
+                    <img src="todo.png" alt="todo">
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div>
+                <ul id="list-container">
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>© 2026 Abhishek Rana. All Rights Revserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
